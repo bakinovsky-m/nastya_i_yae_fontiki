@@ -11,7 +11,7 @@ int main(){
     window.setFramerateLimit(20);
 
     sf::Font font;
-    if(!font.loadFromFile("/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf")){
+    if(!font.loadFromFile("../Ubuntu-B.ttf")){
         std::cout << "font did not loaded" << std::endl;
     }
 
